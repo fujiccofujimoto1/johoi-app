@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Q30　4-1-2 の問題｜情報Ⅰ 共通テスト対策</title>
+<meta name="robots" content="noindex">
+<style>
+  :root{--paper:#fff;--ink:#1a1a1c;--muted:#565a63;--line:#e6e6e6;--link:#1e7ad6;--soft:#f7f8fa}
+  @media (prefers-color-scheme:dark){
+    :root{--paper:#15171c;--ink:#e8eaee;--muted:#a6abb5;--line:#2c2f36;--link:#6fb4f5;--soft:#1c1f26}}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--paper);
+    color:var(--ink);font-family:"Hiragino Kaku Gothic ProN","Noto Sans JP",system-ui,sans-serif;
+    line-height:1.8;padding:24px 16px}
+  main{max-width:420px;width:100%;text-align:center}
+  h1{font-size:19px;font-weight:700;line-height:1.6;margin:0 0 6px}
+  .sub{color:var(--muted);font-size:13.5px;margin:0 0 28px}
+  a.btn{display:block;border:1px solid var(--line);border-radius:10px;padding:15px 18px;
+    margin-bottom:10px;text-decoration:none;color:var(--ink);background:var(--soft);font-size:15px}
+  a.btn b{display:block;font-size:12px;color:var(--link);font-weight:700;margin-bottom:2px}
+  .note{font-size:12.5px;color:var(--muted);margin-top:22px}
+</style></head><body><main>
+  <h1>Q30　4-1-2 の問題</h1>
+  <p class="sub">アプリで開いています…</p>
+  <a class="btn" href="johoi://q/5fd486eb"><b>アプリを持っている方</b>この問題を開く</a>
+  <a class="btn" href="https://apps.apple.com/jp/app/id6780905460"><b>iPhone / iPad</b>App Store で無料ダウンロード</a>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.skydatalab.johoi"><b>Android</b>Google Play で無料ダウンロード</a>
+  <p class="note">情報1 高校の共通テスト対策 過去問と図解の問題集</p>
+</main>
+<script>
+(function () {
+  var qid = '5fd486eb', beacon = '';
+  var store = /android/i.test(navigator.userAgent) ? 'https://play.google.com/store/apps/details?id=com.skydatalab.johoi' : 'https://apps.apple.com/jp/app/id6780905460';
+  var left = false;
+  function mark() { if (document.hidden) left = true; }
+  function log(what) {
+    if (!beacon) return;
+    try { navigator.sendBeacon(beacon + '?q=' + qid + '&r=' + what); } catch (e) {}
+  }
+  document.addEventListener('visibilitychange', mark);
+  window.addEventListener('pagehide', mark);
+  // アプリがあればそのまま開く。無ければ戻ってくるので、少し待ってストアへ送る。
+  location.href = 'johoi://q/' + qid;
+  setTimeout(function () {
+    if (!left && !document.hidden) { log('store'); location.href = store; }
+    else { log('app'); }
+  }, 1400);
+})();
+</script></body></html>
